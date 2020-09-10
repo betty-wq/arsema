@@ -1,3 +1,4 @@
+
 .churchlogo{
   width: 13%;
   height: 13%;
@@ -28,7 +29,6 @@ p{
     color: rgb(30, 65, 139);
     font-family: 'Oleo Script', cursive;
 }
-
 .navi {
   display: block;
     list-style-type: none;
@@ -67,7 +67,7 @@ p{
 .navi .navig .amharic { display: none; }
 .navi .navig:hover .english { display: none; }
 .navi .navig:hover .amharic { display: block; }
-  
+
 .welcomehead {
   color: #b3584c;
   font-size: 25px;
@@ -92,10 +92,10 @@ p{
   }
 .welcometitle{
   font-family: 'Abril Fatface', cursive;
-    color: rgb(41, 77, 151);
+    color: rgb(7, 23, 243);
   text-decoration: none;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(13, 243, 71);
   border: 35px solid hsl(207, 29%, 35%);
     padding: 100px;
     margin: 10px;
@@ -509,4 +509,3 @@ td {
     margin-top: 20px;
     background-color: lemonchiffon;
   }
-  

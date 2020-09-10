@@ -33,7 +33,7 @@ class Index extends React.Component {
                 </nav>
                 <div class="welcometitle">
                     <img class="cross" src="https://www.hamillgallery.com/ETHIOPIAN/EthiopianLargeProcCrosses/EthiopianCross324wt.jpg"></img>
-                <h1 class=" animated bounce infinite">እንኳን ደህና መጣችሁ</h1>
+                <h1 class=" animated bounce infinite">እንኳን ደህና መጡ</h1>
                 <h1 class="welcomeh">Welcome!</h1>
                 <p>We are an Ethiopian Orthodox Church located in Alexandria Virginia. please visit our about us page to learn more.</p>
                 </div>
