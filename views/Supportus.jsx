@@ -5,6 +5,10 @@ class Supportus extends React.Component {
     render() {
         return(
             <Layout>
+                <html>
+                <head>
+                <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
+                </head>
                 <div>
                 <nav>
                 <ul class="navi">
@@ -60,6 +64,7 @@ class Supportus extends React.Component {
                    
                 </div>
                 </div>
+                </html>
                 </Layout>
         )
     }

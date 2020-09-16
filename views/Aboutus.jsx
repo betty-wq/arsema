@@ -5,6 +5,10 @@ class Aboutus extends React.Component {
     render() {
         return(
             <Layout>
+              <html>
+              <head>
+                <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
+                </head>
             <div>
                 <header>
                 <nav>
@@ -202,6 +206,7 @@ and worship and makes a difference in the world.</p>
 </p>
                 </section>
             </div>
+            </html>
             </Layout>
         )
     }

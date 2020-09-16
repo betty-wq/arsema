@@ -5,6 +5,10 @@ class Events extends React.Component {
     render() {
         return(
             <Layout>
+                <html>
+                <head>
+                <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
+                </head>
                 <div>
                 <nav>
                 <ul class="navi">
@@ -82,6 +86,7 @@ class Events extends React.Component {
                     <p class="eventlink">ቀጥታ የምናስተላልፋቸውን ፕሮግራሞች ለመከታተል <a class="EL" href="https://www.facebook.com/Kidist-Arsema-wa-Kidus-Kirkos-EOTC-361541617371571/">ይህን ይጫኑ</a></p>
                     <iframe src="https://calendar.google.com/calendar/embed?src=arsemakidist11%40gmail.com&ctz=America%2FNew_York" width="800" height="600" frameborder="0" scrolling="yes"></iframe>
                 </div>
+                </html>
             </Layout>
             )
 

@@ -5,6 +5,10 @@ class Videos extends React.Component {
     render() {
         return(
             <Layout>
+                <html>
+                <head>
+                <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
+                </head>
                 <div class="VC">
                 <nav>
                 <ul class="navi">
@@ -40,6 +44,7 @@ class Videos extends React.Component {
       
       </div>  
               </div>
+              </html>
             </Layout>
         )
     }

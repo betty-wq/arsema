@@ -24,7 +24,7 @@ const acuity = AcuityScheduling.basic({
 //Database
 //___________________
 // How to connect to the database either via heroku or locally
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27018/arsema';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/arsema';
 // Connect to Mongo
 mongoose.connect(MONGODB_URI ,  { useNewUrlParser: true, useFindAndModify: true, useUnifiedTopology: true });
 // Error / success

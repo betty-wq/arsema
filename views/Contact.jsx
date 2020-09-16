@@ -5,6 +5,10 @@ class Contact extends React.Component {
     render() {
         return(
             <Layout>
+                <html>
+                <head>
+                <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
+                </head>
                 <div class="contactainer">
                 <nav>
                 <ul class="navi">
@@ -53,6 +57,7 @@ class Contact extends React.Component {
                    <p class="con"><a href="tel:+1-571-565-7931">+1 571-565-7931</a></p>
                 </div>
                 </div>
+                </html>
                 </Layout>
         )
     }

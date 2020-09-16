@@ -5,6 +5,10 @@ class Gallery extends React.Component {
     render() {
         return(
             <Layout>
+                <html>
+                <head>
+                <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
+                </head>
                 <div>
                 <nav>
                 <ul class="navi">
@@ -105,6 +109,7 @@ class Gallery extends React.Component {
     </div>      
     <p class="ams ag">ተጨማሪ ምስሎችን ለመመልከት የፌስቡክ ገፃችንን ይጎብኙ</p> 
                 </div>
+                </html>
             </Layout>
         )
     }
