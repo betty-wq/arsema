@@ -156,6 +156,7 @@ section {
   }
   .imgk{
     height: auto;
+    width: auto;
     display: block;
   margin-left: auto;
   margin-right: auto;
