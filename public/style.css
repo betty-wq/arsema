@@ -154,6 +154,7 @@ section {
     padding: 30px;
     
   }
+  @media screen and (max-width: 100%){
   .imgk{
     height: auto;
     width: auto;
@@ -162,6 +163,7 @@ section {
   margin-right: auto;
   max-width: 100%;
   }
+}
   .pab{
     text-align: center;
     padding-top: 15px;
