@@ -41,7 +41,7 @@ class Aboutus extends React.Component {
                 <section>
                 <h1 class="abouth">In the name of the Father the Son and The Holy Spirit</h1>
                 <div class="mab">
-                <img class="imgk" src="https://i.imgur.com/zgQ8INI.jpg" width="100%"></img>
+                <img class="imgk" src="https://i.imgur.com/zgQ8INI.jpg" width="100%" media="(max-width: 400px)"></img>
                 <p class="pab">Melake Sahle Qesis Mulugeta Wondimu</p>
                 <p class="pabs">Administrator</p>
                 </div>
