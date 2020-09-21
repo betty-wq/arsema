@@ -101,13 +101,12 @@ class Gallery extends React.Component {
                     <div class="image">
                     <img src='https://i.imgur.com/yaGsTjD.jpg' width="100%"/>
                     </div>
-                    <div>
+                    <div class="image">
                         <img src="https://i.imgur.com/CT9WwPu.jpg" width="100%"/>
                     </div>
-                    <button class="ams ag"><a href="https://www.facebook.com/pg/Kidist-Arsema-wa-Kidus-Kirkos-EOTC-361541617371571/photos/?ref=page_internal">ተጨማሪ ምስሎችን ለመመልከት ይህንን ይጫኑ</a></button> 
                </div>
       
-           
+               <button class="ams ag"><a href="https://www.facebook.com/pg/Kidist-Arsema-wa-Kidus-Kirkos-EOTC-361541617371571/photos/?ref=page_internal">ተጨማሪ ምስሎችን ለመመልከት ይህንን ይጫኑ</a></button> 
     
                 </div>
                 </html>
