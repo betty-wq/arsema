@@ -5,6 +5,7 @@ class Layout extends React.Component {
         return(
             <html>
                 <head>
+                <meta charset="UTF-8"/>
                     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
                 <link rel="stylesheet" href="/style.css"></link>
                 

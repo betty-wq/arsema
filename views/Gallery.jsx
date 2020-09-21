@@ -7,6 +7,7 @@ class Gallery extends React.Component {
             <Layout>
                 <html>
                 <head>
+                <meta charset="UTF-8"/>
                 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
                 </head>
                 <div>
