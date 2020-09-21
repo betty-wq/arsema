@@ -34,7 +34,7 @@ class Events extends React.Component {
                     <li class="navig"><a class="english" href="/logs/Supportus">SUPPORT US</a>
                     <a class="amharic" href="/logs/Supportus">ድጋፍ መስጫ</a>
                     </li>
-                    <li class="navig"><a href="file:///Users/bettybeshah/Downloads/%E1%8B%A8%E1%8A%A0%E1%89%A3%E1%88%8D%E1%8A%90%E1%89%B5%20%E1%89%85%E1%8D%85%20inword-%20updated%20042019%20(1).pdf">Membership</a></li>
+                    
                 </ul>
                 </nav>
                 </div>
