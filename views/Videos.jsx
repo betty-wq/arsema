@@ -34,6 +34,12 @@ class Videos extends React.Component {
                     <li class="navig"><a class="english" href="/logs/Supportus">SUPPORT US</a>
                     <a class="amharic" href="/logs/Supportus">ድጋፍ መስጫ</a>
                     </li>
+                    <ul class="dropdown navig">
+                        SERVICES
+                        <li class="dropdown-content">
+                            <a href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=31c58ce3dd&attid=0.1&permmsgid=msg-f:1677469260532796062&th=17479167a3b1ca9e&view=att&disp=inline&realattid=f_kex372kh0&sadnir=2&saddbat=ANGjdJ_xjTLDmTTIhhDBY5EtyNNMiF1R2IT94_bkXx2YsBkgO3_HhI0zhQiCFpqzGFHBSRqIlcN-SPZXOlNmvliWyFjF2gtb9VRsyxMWWyZpCi68Ihp4ugMfORpCH8udZXM-5tY9oPRFfTXsaVm2UdFsolSkhlen1sHqKURcva5Ie2761XJQQQWs3r3dr6WAHhAjwJxnRh1X586mNUHcuDDzm7V597GHDwVxZc_YVkJd13v4WfDTNe84n0c1nVQABFrl0qpOaanmWqDq19CJrUXUpPC1stDNrlhgDwZS45qjG8nwL52m5nYtSXz9TBlAY1FiP-GjIyOW-2H4yd9xbwspY8Z6QZPjvSVXANv1Vd-t3VObVhevea2LUm0ta7n9AJuGaYqon_Q0q5EvdcozwY_bEaP7edvwS53B2gzBlJGBCEJPcNezutG5rA9BUTjBP7oXbt1RJNU8Wi9s2uldRCMNO-i04xLXZoune1-I6smPF4sER4v3keIIxD_q9LCh4ejfBCos3G1U1YFuN8THsPrRiFJJhC6aYXhkFWZYVct7wXHKjugh5TnsC3R0-94hSH8AeZTvVaoi7wfO0EYju5fzVZBtz5otTN3oJwlLDHiPWihxb_bye-f_lpy_6_wECcqOr3EyZTipe16nYzkhitG2u97MPjvhvCcm0aJsQ2tVHJ8gUuxVnk5VByn-mM0" type="application/x-google-chrome-pdf">MEMBERSHIP</a>
+                        </li>
+                    </ul>
                 </ul>
                 </nav>
       <div class="v1">

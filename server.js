@@ -80,9 +80,6 @@ app.get('/logs/Supportus', (eq, res)=>{
     res.render('Supportus');
 });
 
-app.get('/logs/Membership', (eq, res)=>{
-    res.render('Membership');
-});
 
 //___________________
 //Listener
