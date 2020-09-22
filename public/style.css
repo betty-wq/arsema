@@ -70,6 +70,34 @@ p{
 .navi .navig:hover .english { display: none; }
 .navi .navig:hover .amharic { display: block; }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: block;
+      color: rgb(250, 253, 253);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: 900;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 5px 16px;
+  z-index: 1;
+  color: #020202;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content>a:hover{
+  color: #199724;
+}
 .welcomehead {
   color: #b3584c;
   font-size: 25px;

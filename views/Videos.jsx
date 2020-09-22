@@ -41,8 +41,9 @@ class Videos extends React.Component {
       <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F361541617371571%2Fvideos%2F135829757860666%2F&show_text=0&width=560" width="700" height="315" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
       <p><a href="https://www.facebook.com/100009225130963/videos/2679619172355561">"አታመንዝር" ስምንተኛ ትዕዛዝ</a></p>
       <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F100009225130963%2Fvideos%2F2679619172355561%2F&show_text=0&width=560" width="700" height="314" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+      <p><a href="https://www.facebook.com/100009225130963/videos/2702749450042533">Fruits of Arsema and Kirkos EOTC</a></p>
+      <iframe src="https://i.imgur.com/er3bjqC.mp4" width="700" height="314" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
       <p class="pv">ተጨማሪ ቪዲዮችን ለመመልከት የፌስቡክ ገፃችንን ይመልከቱ<a href="https://www.youtube.com/channel/UCUZymDgWY4FhYGZEWyf6aQQ/videos" class="fa fa-youtube"></a></p>
-      
       </div>  
               </div>
               </html>

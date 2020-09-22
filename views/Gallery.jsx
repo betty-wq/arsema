@@ -38,12 +38,6 @@ class Gallery extends React.Component {
                 </nav>
 
                 <div class="images">
-                    {/* <div class="image">
-                    <img src='https://i.imgur.com/AzhY565.png' width="100%" height="100%"/>
-                    </div>
-                    <div class="image">
-                    <img src='https://i.imgur.com/c77xpmQ.png' width="100%"/>
-                    </div> */}
                     <div class="image">
                     <img src='https://i.imgur.com/AzhY565.png' width="100%" height="100%"/>
                     </div>
