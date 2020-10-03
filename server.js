@@ -97,6 +97,16 @@ app.get('/logs/Gallery', (req, res) =>{
     res.render('Gallery')
 })
 
+//Baptism
+app.get('/logs/Baptism', (req, res) =>{
+    res.render('Baptism')
+})
+
+//Wedding
+app.get('/logs/Wedding', (req, res) =>{
+    res.render('Wedding')
+})
+
 //___________________
 //Listener
 //___________________

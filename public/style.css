@@ -535,3 +535,12 @@ input{
   color: rgb(248, 42, 6);
   text-decoration: none;
 }
+
+.gallery_card>a>img{
+  height: 90px;
+  width: 95px;
+}
+/* Baptism */
+.bapt{
+  color: #125688;
+}

@@ -1,7 +1,7 @@
 const React = require('react');
 const Layout = require('./Layout.jsx')
 
-class Membership extends React.Component {
+class Baptism extends React.Component {
     render() {
         return(
             <Layout>
@@ -40,14 +40,12 @@ class Membership extends React.Component {
                     <p class="memp">የመካነ ሰማዕት ቅድስት አርሴማ ወቅዱስ ቂርቆስ የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ
                      ቤተክርስቲያን</p>
                      <p class="memp">Mekane Semait Kidist Arsema Wa’ Kidus Kirkos Ethiopian Orthodox Church</p>
-                    <p class="memp">የአባልነት መመዝገቢያ ቅፅ</p>
-                    <p class="memp">Membership form</p>
+                    <p class="memp">የክርስትና አገልግሎት መጠየቂያ ቅፅ</p>
+                    <p class="memp">Baptismal Service Application form</p>
                 <form action="mailto:Admin@arsemakirkoseotc.org" method="post" enctype="text/plain">
-                     Membership <input type="checkbox" name="membership" required></input><br/>
-                     Name / ሙሉ ስም<br/>
-                    <input class="form-group form-control" type="text" name="name" placeholder="name"></input><br/>
-                    Baptism Name / ክርስትና ስም<br/>
-                    <input class="form-group form-control" type="text" name="baptism name" placeholder="baptism name"></input><br/>
+                Baptism <input type="checkbox" name="Baptism" required></input><br/>
+                Applicant name / የአመልካች ስም<br/>
+                    <input class="form-group form-control" type="text" name="applicant name" placeholder="applicant name"></input><br/>
                     Address / አድራሻ<br/>
                     <input class="form-group form-control" type="text" name="address" placeholder="address"></input><br/>
                     Telephone / ስልክ ቁጥር<br/>
@@ -55,29 +53,25 @@ class Membership extends React.Component {
                       required placeholder="phone number"></input><br/>
                      E-mail address / ኢሜል አድራሻ<br/>
                      <input class="form-group form-control" type="text" name="e-mail" placeholder="e-mail"></input><br/>
-                     Profession / የስራ ሙያ<br/>
-                     <input class="form-group form-control" type="text" name="profession" placeholder="profession"></input><br/>
-                     Education / የትምህርት ደረጃ<br/>
-                     <input class="form-group form-control" type="text" name="education" placeholder="education"></input><br/>
-                     Monthly Contribution / ወርሃዊ መዋጮ <br/>
-                     $10 <input type="checkbox" name="10"></input> $20 <input type="checkbox" name="20"></input> $25 <input type="checkbox" name="25"></input> $30 <input type="checkbox" name="30"></input>
-                     $35 <input type="checkbox" name="35"></input> $40 <input type="checkbox" name="40"></input> $50 <input type="checkbox" name="50"></input> $100 <input type="checkbox" name="100"></input> ሌላ <input type="number" name="other"></input><br/>
-                     Payment method / የሚጠቀሙበት መንገድ <br/>
-                     በጥሬ ገንዘብ / Cash <input type="checkbox" name="cash"></input> በቼክ / Check <input type="checkbox" name="check"></input> በክሬዲት ካርድ / Credit Card <input type="checkbox" name="card"></input> በባንክ ቀጥታ / Direct Deposit <input type="checkbox" name="direct"></input><br/>
-                     Area of profession or service you would like to take part / ሌላ አስተፅዋፅኦ ሊያደርጉ የሚፈልጉበት የአገልግሎት ዘርፍ<br/>
-                     <input class="form-group form-control" type="text" name="other" placeholder="other"></input><br/>
-                     Signature / ፊርማ<input class="form-group form-control" type="text" name="signature" id="signature" placeholder="your name"></input> Date / ቀን <input class="from-group form-control" type="date" id="start" name="trip-start" value="2020-10-01" min="2019-01-01" max="2030-12-31" required></input><br/>
-                     <input type="submit" value="Send"></input>
-                     <input type="reset" value="Reset"></input>
-                 </form>
-                 
-                 <p class="memp">6701 Franconia Rd. Alexandria, VA 22310 Tel: 202 680 4182 Email: Karsemachurch@gmail.com Like us on facebook: Kidist Arsema-wa Kirkos Eotc</p>
+                   <p class="bapt">ክርስትና ስለሚቀበለው ሰው መረጃ / Information on a person to be baptized</p><br/>
+                   Name / ሙሉ ስም<br/>
+                    <input class="form-group form-control" type="text" name="name" placeholder="name"></input><br/>
+                    Date of birth / የትውልድ ቀን <input class="from-group form-control" type="date" id="start" name="trip-start" value="2020-10-01" min="2019-01-01" max="2030-12-31" required></input><br/>
+                    Sex / ፆታ <input type="checkbox" name="male"></input> ወንድ / Male <input type="checkbox" name="female"></input> ሴት / Female <br/>
+                    Mother's name / የእናት ሥም<br/>
+                    <input class="form-group form-control" type="text" name="mother's name" placeholder="mother's name"></input><br/>
+                    Father's name / የእናት ሥም<br/>
+                    <input class="form-group form-control" type="text" name="father's name" placeholder="father's name"></input><br/>
+                    God father / Mother name / የክርስትና አባት / እናት ሥም<br/>
+                    <input class="form-group form-control" type="text" name="God father / mother's name" placeholder="God father / mother's name"></input><br/>
+                    Signature / ፊርማ<input class="form-group form-control" type="text" name="signature" id="signature" placeholder="your name"></input> Date / ቀን <input class="from-group form-control" type="date" id="start" name="trip-start" value="2020-10-01" min="2019-01-01" max="2030-12-31" required></input><br/>
+                </form>
                 </div>
-            </div>
-            </html>
-        </Layout>
+                </div>
+                </html>
+                </Layout>
         )
     }
 }
 
-module.exports = Membership
+module.exports = Baptism

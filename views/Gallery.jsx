@@ -39,12 +39,12 @@ class Gallery extends React.Component {
                 <div class="gallery_main">
                 <div class="gallery_card">
                     <a href="/logs/Photo">
-                    Photo
+                    <img src="https://thumbs.dreamstime.com/b/black-icon-camera-cartoon-vintage-vector-graphic-sdesign-93594588.jpg"></img>
                     </a>
                 </div>
                 <div class="gallery_card">
                     <a href="/logs/Videos">
-                    Video
+                    <img src="https://www.netclipart.com/pp/m/176-1769148_btsmoviemaking-com-clip-art-old-film-camera.png"></img>
                     </a>
                 </div>
                 </div>

@@ -39,6 +39,7 @@ class Services extends React.Component {
                     <div class="service">
                             <ul>
                                 <li><a href="/logs/Membership">Membership form</a></li>
+                                <li><a href="/logs/Baptism">Baptismal form</a></li>
                             </ul>
                     </div>
                     </div>
