@@ -58,28 +58,44 @@ app.get('/logs/Events', (req, res)=> {
     });
 
 // About us
-app.get('/logs/Aboutus', (eq, res)=>{
+app.get('/logs/Aboutus', (req, res)=>{
     res.render('Aboutus');
 });
 
-// Gallery
-app.get('/logs/Gallery', (eq, res)=>{
-    res.render('Gallery');
+// Photo
+app.get('/logs/Photo', (req, res)=>{
+    res.render('Photo');
 });
 
 //Liturgy
-app.get('/logs/Videos', (eq, res)=>{
+app.get('/logs/Videos', (req, res)=>{
     res.render('Videos');
 });
 
-app.get('/logs/Contact', (eq, res)=>{
+//Contact
+app.get('/logs/Contact', (req, res)=>{
     res.render('Contact');
 });
 
-app.get('/logs/Supportus', (eq, res)=>{
+//Support us
+app.get('/logs/Supportus', (req, res)=>{
     res.render('Supportus');
 });
 
+//Services
+app.get('/logs/Services', (req, res)=>{
+    res.render('Services');
+});
+
+//Membership
+app.get('/logs/Membership', (req, res) =>{
+    res.render('Membership')
+})
+
+//Gallery
+app.get('/logs/Gallery', (req, res) =>{
+    res.render('Gallery')
+})
 
 //___________________
 //Listener

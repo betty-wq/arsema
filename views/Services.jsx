@@ -1,8 +1,7 @@
 const React = require('react');
-const Layout = require('./Layout.jsx');
+const Layout = require('./Layout.jsx')
 
-
-class Gallery extends React.Component {
+class Services extends React.Component {
     render() {
         return(
             <Layout>
@@ -11,8 +10,8 @@ class Gallery extends React.Component {
                 <meta charset="UTF-8"/>
                 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
                 </head>
-                <div>
-                <nav>
+            <div class="mainpage">
+            <nav>
                 <ul class="navi">
                     <li class="navig"><a class="english" href="/logs">HOME</a>
                     <a class="amharic" href="/logs">መግቢያ</a>
@@ -23,8 +22,11 @@ class Gallery extends React.Component {
                     <li class="navig"><a class="english" href="/logs/Events">EVENTS</a>
                     <a class="amharic" href="/logs/Events">ክስተቶች</a>
                     </li>
-                    <li class="navig"><a class="english" href="/logs/Gallery">GALLERY</a>
-                    <a class="amharic" href="/logs/Gallery">ምስል ክምችት</a>
+                    <li class="navig"><a class="english" href="/logs/Gallery">PHOTOS</a>
+                    <a class="amharic" href="/logs/Gallery">ምስሎች</a>
+                    </li>
+                    <li class="navig"><a class="english" href="/logs/Videos">VIDEO</a>
+                    <a class="amharic" href="/logs/Videos">ቪዲዮ</a>
                     </li>
                     <li class="navig"><a class="english" href="/logs/Contact">CONTACT</a>
                     <a class="amharic" href="/logs/Contact">ያግኙን</a>
@@ -32,26 +34,18 @@ class Gallery extends React.Component {
                     <li class="navig"><a class="english" href="/logs/Supportus">SUPPORT US</a>
                     <a class="amharic" href="/logs/Supportus">ድጋፍ መስጫ</a>
                     </li>
-                    
-                </ul>
+                    </ul>
                 </nav>
-                </div>
-                <div class="gallery_main">
-                <div class="gallery_card">
-                    <a href="/logs/Photo">
-                    Photo
-                    </a>
-                </div>
-                <div class="gallery_card">
-                    <a href="/logs/Videos">
-                    Video
-                    </a>
-                </div>
-                </div>
+                    <div class="service">
+                            <ul>
+                                <li><a href="/logs/Membership">Membership form</a></li>
+                            </ul>
+                    </div>
+                    </div>
                 </html>
-                </Layout>
+            </Layout>
         )
     }
 }
 
-module.exports = Gallery
+module.exports = Services

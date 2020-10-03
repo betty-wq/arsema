@@ -29,23 +29,23 @@ p{
     color: rgb(30, 65, 139);
     font-family: 'Oleo Script', cursive;
 }
-.navi {
+ .navi {
   z-index: 1;
-  display: block;
+    display: block;
     list-style-type: none;
     margin: 0px;
     /* margin-top: 0%; */
-    padding: 0px;
+    padding-bottom: 0px;
     overflow: hidden;
     background-color: hsl(207, 75%, 24%);
     text-decoration: none;
   }
 .navig {
-  position: relative;
-      padding: 0px;
-      padding-left: 10px;
+      position: relative;
+      padding: 20px;
+      padding-left: 20px;
       padding-top: 0px;
-      padding-bottom: 10px;
+      padding-bottom: 0px;
       float: left;
       text-decoration: none;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -59,7 +59,7 @@ p{
       font-weight: 900;
   }
 .navig a:hover{
-      /* background-color: rgba(243, 186, 186, 0.993); */
+     /* background-color: rgba(10, 10, 10, 0.993); */
       text-decoration: none;
       color: rgb(252, 249, 249);
       text-shadow: #111;
@@ -70,34 +70,7 @@ p{
 .navi .navig:hover .english { display: none; }
 .navi .navig:hover .amharic { display: block; }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-  display: block;
-      color: rgb(250, 253, 253);
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-weight: 900;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 15px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 5px 16px;
-  z-index: 1;
-  color: #020202;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown-content>a:hover{
-  color: #199724;
-}
 .welcomehead {
   color: #b3584c;
   font-size: 25px;
@@ -321,12 +294,6 @@ h1{
 
 
 
-
-
-
-
-
-
 /* Events */
 
 .table, td, .heads {  
@@ -389,7 +356,24 @@ td {
   text-shadow: rgb(6, 14, 90), red 10px;
 }
 
+.eventh2{
+  font-size: 25px;
+  text-align: center;
+  color: #125688;
+  text-decoration: underline;
+}
 
+.eventul>li{
+  padding-top: 20px;
+   text-align: center;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.eventul>li>a{
+  text-decoration: none;
+  color: #bb0000;
+}
 #wrap {
   width:600px;
   height:600px;
@@ -478,3 +462,76 @@ td {
     margin-top: 20px;
     background-color: lemonchiffon;
   }
+
+  /* services */
+
+  .service{
+    background-color: wheat;
+  }
+
+
+/* Membership */
+
+.member{
+  padding: 40px;
+  background-color: white;
+}
+
+#upper_left {
+	position: relative;
+	top: 0;
+  left: 0;
+  height: 80px;
+}
+#upper_right {
+	position: relative;
+	top: 0;
+  right: 0%;
+  height: 80px;
+}
+.memp{
+  text-align: center;
+  color: #3B5998;
+}
+form{
+  padding: 60px;
+  text-align: center;
+  align-items: center;
+}
+
+input{
+  text-align: center;
+  padding-right: 30px;
+  align-items: center;
+}
+
+/* Gallery */
+.gallery_main{
+  border: 10px solid rgb(3, 79, 92);
+  text-align: center;
+  background-image: url(https://www.toledoblade.com/image/2020/05/13/1140x_a10-7_cTC/FEA-WORSHIP17.jpg);
+  width: 100%;
+  height: 450px;
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery_card>a{
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(236, 215, 19);
+  text-shadow: black;
+  background-color: rgb(7, 119, 72);
+  font-size: 30px;
+  font-weight: 700;
+  opacity: 65%;
+  float: left;
+  width: 50%;
+  /* padding-left: auto;
+  padding-right: auto; */
+}
+.gallery_card>a:hover{
+  color: rgb(248, 42, 6);
+  text-decoration: none;
+}
