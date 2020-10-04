@@ -25,6 +25,9 @@ class Videos extends React.Component {
                     <li class="navig"><a class="english" href="/logs/Gallery">GALLERY</a>
                     <a class="amharic" href="/logs/Gallery">ምስል ክምችት</a>
                     </li>
+                    <li class="navig"><a class="english" href="/logs/Services">SERVICES</a>
+                    <a class="amharic" href="/logs/Services">የምንሰጣቸዉ አገልግሎቶች</a>
+                    </li>
                     <li class="navig"><a class="english" href="/logs/Contact">CONTACT</a>
                     <a class="amharic" href="/logs/Contact">ያግኙን</a>
                     </li>

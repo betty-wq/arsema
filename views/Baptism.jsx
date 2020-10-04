@@ -25,6 +25,9 @@ class Baptism extends React.Component {
                     <li class="navig"><a class="english" href="/logs/Gallery">GALLERY</a>
                     <a class="amharic" href="/logs/Gallery">ምስል ክምችት</a>
                     </li>
+                    <li class="navig"><a class="english" href="/logs/Services">SERVICES</a>
+                    <a class="amharic" href="/logs/Services">የምንሰጣቸዉ አገልግሎቶች</a>
+                    </li>
                     <li class="navig"><a class="english" href="/logs/Contact">CONTACT</a>
                     <a class="amharic" href="/logs/Contact">ያግኙን</a>
                     </li>
@@ -56,16 +59,20 @@ class Baptism extends React.Component {
                    <p class="bapt">ክርስትና ስለሚቀበለው ሰው መረጃ / Information on a person to be baptized</p><br/>
                    Name / ሙሉ ስም<br/>
                     <input class="form-group form-control" type="text" name="name" placeholder="name"></input><br/>
-                    Date of birth / የትውልድ ቀን <input class="from-group form-control" type="date" id="start" name="trip-start" value="2020-10-01" min="2019-01-01" max="2030-12-31" required></input><br/>
+                    Date of birth / የትውልድ ቀን <input type="date" id="start" name="date of birth" value="2020-10-01" min="2019-01-01" max="2030-12-31" required></input><br/>
+                    Date of baptism / የጥምቀት ቀን <input type="date" id="start" name="date of baptism" value="2020-10-01" min="2019-01-01" max="2030-12-31" required></input><br/>
                     Sex / ፆታ <input type="checkbox" name="male"></input> ወንድ / Male <input type="checkbox" name="female"></input> ሴት / Female <br/>
                     Mother's name / የእናት ሥም<br/>
                     <input class="form-group form-control" type="text" name="mother's name" placeholder="mother's name"></input><br/>
-                    Father's name / የእናት ሥም<br/>
+                    Father's name / የአባት ሥም<br/>
                     <input class="form-group form-control" type="text" name="father's name" placeholder="father's name"></input><br/>
                     God father / Mother name / የክርስትና አባት / እናት ሥም<br/>
                     <input class="form-group form-control" type="text" name="God father / mother's name" placeholder="God father / mother's name"></input><br/>
-                    Signature / ፊርማ<input class="form-group form-control" type="text" name="signature" id="signature" placeholder="your name"></input> Date / ቀን <input class="from-group form-control" type="date" id="start" name="trip-start" value="2020-10-01" min="2019-01-01" max="2030-12-31" required></input><br/>
+                    Signature / ፊርማ<input class="form-group form-control" type="text" name="signature" id="signature" placeholder="your name"></input> Date / ቀን <input type="date" id="start" name="today's date" value="2020-10-01" min="2019-01-01" max="2030-12-31" required></input><br/>
+                    <input type="submit" value="Send"></input>
+                     <input type="reset" value="Reset"></input> 
                 </form>
+                <p class="memp">6701 Franconia Rd. Alexandria, VA 22310 Tel: 202 680 4182 Email: Karsemachurch@gmail.com Like us on facebook: Kidist Arsema-wa Kirkos Eotc</p>
                 </div>
                 </div>
                 </html>
