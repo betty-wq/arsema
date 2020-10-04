@@ -58,12 +58,8 @@ class Membership extends React.Component {
                       required placeholder="phone number"></input><br/>
                      E-mail address / ኢሜል አድራሻ<br/>
                      <input class="form-group form-control" type="text" name="e-mail" placeholder="e-mail"></input><br/>
-                     Profession / የስራ ሙያ<br/>
-                     <input class="form-group form-control" type="text" name="profession" placeholder="profession"></input><br/>
-                     Education / የትምህርት ደረጃ<br/>
-                     <input class="form-group form-control" type="text" name="education" placeholder="education"></input><br/>
                      Monthly Contribution / ወርሃዊ መዋጮ <br/>
-                     $10 <input type="checkbox" name="$10"></input> $20 <input type="checkbox" name="$20"></input> $25 <input type="checkbox" name="$25"></input> $30 <input type="checkbox" name="$30"></input>
+                     $20 <input type="checkbox" name="$20"></input> $25 <input type="checkbox" name="$25"></input> $30 <input type="checkbox" name="$30"></input>
                      $35 <input type="checkbox" name="$35"></input> $40 <input type="checkbox" name="$40"></input> $50 <input type="checkbox" name="$50"></input> $100 <input type="checkbox" name="$100"></input> ሌላ <input type="number" name="other"></input><br/>
                      Payment method / የሚጠቀሙበት መንገድ <br/>
                      በጥሬ ገንዘብ / Cash <input type="checkbox" name="cash"></input> በቼክ / Check <input type="checkbox" name="check"></input> በክሬዲት ካርድ / Credit Card <input type="checkbox" name="card"></input> በባንክ ቀጥታ / Direct Deposit <input type="checkbox" name="direct"></input><br/>
