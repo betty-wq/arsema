@@ -107,6 +107,11 @@ app.get('/logs/Wedding', (req, res) =>{
     res.render('Wedding')
 })
 
+//Volunteer
+app.get('/logs/Volunteer', (req, res) =>{
+    res.render('Volunteer')
+})
+
 //___________________
 //Listener
 //___________________

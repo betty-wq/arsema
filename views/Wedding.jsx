@@ -59,7 +59,9 @@ class Wedding extends React.Component {
                      Spritual Father Name / የንሰሐ አባት ስም<br/>
                      <input class="from-group form-control" type="text" name="spritual father name" placeholder="spritual father name" size="80"></input><br/>
                      Date of service / የአገልግሎቱ ቀን <input type="date" id="start" name="date of service" value="2020-10-01" min="2019-01-01" max="2030-12-31" required size="80"></input><br/>
-                     Intended prayer location / አገልግሎቱ የተጠየቀበት ቦታ <input type="checkbox" name="Inside the church"></input> ቤተ ክርስቲያን ውስጥ / Inside the church <input type="checkbox" name="female"></input> ሌላ ቦታ / Other Location__Address / አድራሻ<br/>
+                     <span>Intended prayer location / አገልግሎቱ የተጠየቀበት ቦታ</span><br/>
+                     ቤተ ክርስቲያን ውስጥ / Inside the church <input type="checkbox" name="Inside the church"></input><br/> 
+                     ሌላ ቦታ / Other Location__Address / አድራሻ <input type="checkbox" name="female"></input><br/> 
                     <input class="from-group form-control" type="text" name="address" placeholder="address" size="80"></input><br/>
                      <p class="wed">በሙሽሪት የሚሞላ / To be filled by bride</p>
                      Name / ሙሉ ስም<br/>
