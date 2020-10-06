@@ -52,7 +52,7 @@ class Wedding extends React.Component {
                     Address / አድራሻ<br/>
                     <input class="from-group form-control" type="text" name="address" placeholder="address" size="80"></input><br/>
                     Telephone / ስልክ ቁጥር<br/>
-                    <input class="from-group form-control" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    <input class="from-group form-control" type="tel" name="phone"
                       required placeholder="phone number" size="80"></input><br/>
                      E-mail address / ኢሜል አድራሻ<br/>
                      <input class="from-group form-control" type="text" name="e-mail" placeholder="e-mail" size="80"></input><br/>

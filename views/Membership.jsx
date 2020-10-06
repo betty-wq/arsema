@@ -54,7 +54,7 @@ class Membership extends React.Component {
                     Address / አድራሻ<br/>
                     <input class="form-group form-control" type="text" name="address" placeholder="address"></input><br/>
                     Telephone / ስልክ ቁጥር<br/>
-                    <input class="form-group form-control" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    <input class="form-group form-control" type="tel" name="phone"
                       required placeholder="phone number"></input><br/>
                      E-mail address / ኢሜል አድራሻ<br/>
                      <input class="form-group form-control" type="text" name="e-mail" placeholder="e-mail"></input><br/>
