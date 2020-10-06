@@ -39,7 +39,7 @@ class Baptism extends React.Component {
                 </nav>
                 <div class="member">
                     <img id="upper_left" class="rounded float-left" src="https://afanoromobatch.files.wordpress.com/2017/01/saint-arsema.jpg?w=168&h=224"></img>
-                    <img id="upper_right" class="rounded float-right" src="https://www.seiyaku.com/images/cross/ethiopian-large.png"></img>
+                    <img id="upper_right" class="rounded float-right" src="https://i.imgur.com/BCvUJWP.gif"></img>
                     <p class="memp">የመካነ ሰማዕት ቅድስት አርሴማ ወቅዱስ ቂርቆስ የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ
                      ቤተክርስቲያን</p>
                      <p class="memp">Mekane Semait Kidist Arsema Wa’ Kidus Kirkos Ethiopian Orthodox Church</p>

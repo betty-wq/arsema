@@ -45,13 +45,13 @@ class Services extends React.Component {
                                 <p>ከዚህ በታች ያለዉን ፎርም በመሙላት ቀጥታ ወደ ኢሜላችን መላክ ትችላላችሁ።</p>
                             <ul class="service_ul">
                                 <li>
-                                    <a href="/logs/Membership"><img src="https://i.dlpng.com/static/png/6499887_preview.png" width="50"></img></a>
+                                    <a href="/logs/Membership"><img src="https://i.imgur.com/ucD49LN.jpg" width="50"></img></a>
                                     <a href="/logs/Membership">Membership form</a></li>
                                 <li>
-                                <a href="/logs/Baptism"><img src="https://i.dlpng.com/static/png/6499887_preview.png" width="50"></img></a>
+                                <a href="/logs/Baptism"><img src="https://i.imgur.com/ucD49LN.jpg" width="50"></img></a>
                                     <a href="/logs/Baptism">Baptismal service request form</a></li>
                                 <li>
-                                <a href="/logs/Wedding"><img src="https://i.dlpng.com/static/png/6499887_preview.png" width="50"></img></a>
+                                <a href="/logs/Wedding"><img src="https://i.imgur.com/ucD49LN.jpg" width="50"></img></a>
                                     <a href="/logs/Wedding">Wedding service request form</a></li>
                             </ul>
                             <p>Other Services We Give</p>
