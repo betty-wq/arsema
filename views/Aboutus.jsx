@@ -36,7 +36,9 @@ class Aboutus extends React.Component {
                     <li class="navig"><a class="english" href="/logs/Supportus">SUPPORT US</a>
                     <a class="amharic" href="/logs/Supportus">ድጋፍ መስጫ</a>
                     </li>
-                    
+                    <li class="navig"><a class="english" href="/logs/Volunteer">VOLUNTEER</a>
+                    <a class="amharic" href="/logs/Volunteer">ነፃ አገልግሎት መስጫ</a>
+                    </li>
                 </ul>
                 </nav>
                 

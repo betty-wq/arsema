@@ -34,7 +34,9 @@ class Volunteer extends React.Component {
                     <li class="navig"><a class="english" href="/logs/Supportus">SUPPORT US</a>
                     <a class="amharic" href="/logs/Supportus">ድጋፍ መስጫ</a>
                     </li>
-                    
+                    <li class="navig"><a class="english" href="/logs/Volunteer">VOLUNTEER</a>
+                    <a class="amharic" href="/logs/Volunteer">ነፃ አገልግሎት መስጫ</a>
+                    </li>
                 </ul>
                 </nav>
                 <div class="member">
@@ -58,18 +60,14 @@ class Volunteer extends React.Component {
                       required placeholder="phone number"></input><br/>
                      E-mail address / ኢሜል አድራሻ<br/>
                      <input class="form-group form-control" type="text" name="e-mail" placeholder="e-mail"></input><br/>
-                     Monthly Contribution / ወርሃዊ መዋጮ <br/>
-                     $20 <input type="checkbox" name="$20"></input><br/>
-                      $25 <input type="checkbox" name="$25"></input><br/>
-                       $30 <input type="checkbox" name="$30"></input><br/>
-                     $35 <input type="checkbox" name="$35"></input><br/> 
-                     $40 <input type="checkbox" name="$40"></input><br/> 
-                     $50 <input type="checkbox" name="$50"></input><br/> 
-                     $100 <input type="checkbox" name="$100"></input><br/> 
-                     ሌላ <input type="number" name="other"></input><br/>
-                     Payment method / የሚጠቀሙበት መንገድ <br/>
-                     በጥሬ ገንዘብ / Cash <input type="checkbox" name="cash"></input> በቼክ / Check <input type="checkbox" name="check"></input> በክሬዲት ካርድ / Credit Card <input type="checkbox" name="card"></input> በባንክ ቀጥታ / Direct Deposit <input type="checkbox" name="direct"></input><br/>
-                     Area of profession or service you would like to take part / ሌላ አስተፅዋፅኦ ሊያደርጉ የሚፈልጉበት የአገልግሎት ዘርፍ<br/>
+                     Preferences in Area of Volunteering / የነፃ አገልግሎት መስጠት የሚፈልጉበት ዘርፍ <br/>
+                     IT <input type="checkbox" name="IT"></input><br/>
+                     Choir <input type="checkbox" name="Choir"></input><br/>
+                     First Aid <input type="checkbox" name="First aid"></input><br/> 
+                     Food Service <input type="checkbox" name="Food service"></input><br/> 
+                     Event planner <input type="checkbox" name="Event planner"></input><br/>
+                     Kids Bible Study <input type="checkbox" name="Kids Bible Study"></input><br/> 
+                     Other Area of profession or service you would like to take part / ሌላ አስተፅዋፅኦ ሊያደርጉ የሚፈልጉበት የአገልግሎት ዘርፍ<br/>
                      <input class="form-group form-control" type="text" name="other" placeholder="other"></input><br/>
                      Signature / ፊርማ<input class="form-group form-control" type="text" name="signature" id="signature" placeholder="your name"></input> Date / ቀን <input type="date" id="start" name="today's date" value="2020-10-01" min="2019-01-01" max="2030-12-31" required ></input><br/>
                      <input type="submit" value="Send"></input>
