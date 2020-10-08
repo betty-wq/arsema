@@ -74,8 +74,6 @@ class Membership extends React.Component {
                      በቼክ / Check <input type="checkbox" name="check"></input><br/> 
                      በክሬዲት ካርድ / Credit Card <input type="checkbox" name="card"></input><br/> 
                      በባንክ ቀጥታ / Direct Deposit <input type="checkbox" name="direct"></input><br/>
-                     Area of profession or service you would like to take part / ሌላ አስተፅዋፅኦ ሊያደርጉ የሚፈልጉበት የአገልግሎት ዘርፍ<br/>
-                     <input class="form-group form-control" type="text" name="other" placeholder="other"></input><br/>
                      Signature / ፊርማ<input class="form-group form-control" type="text" name="signature" id="signature" placeholder="your name"></input> Date / ቀን <input type="date" id="start" name="today's date" value="2020-10-01" min="2019-01-01" max="2030-12-31" required ></input><br/>
                      <input type="submit" value="Send"></input>
                      <input type="reset" value="Reset"></input>

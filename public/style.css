@@ -507,8 +507,10 @@ td {
 /* Membership */
 
 .member{
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 40px;
-  background-color: white;
+  background-color: rgb(249, 251, 252);
 }
 
 #upper_left {

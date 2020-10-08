@@ -87,8 +87,8 @@ class Wedding extends React.Component {
                     <input class="from-group form-control" type="text" name="baptismal name" placeholder="baptismal name" size="80"></input><br/>
                     Nationality / ዜግነት<br/>
                     <input class="from-group form-control" type="text" name="nationality" placeholder="nationality" size="80"></input><br/>
-                    Aditional information on the service / ስለ አገልግሎቱ ተጨማሪ መረጃ<br/>
-                    <input class="from-group form-control" type="text" name="additional info" placeholder="additional info" size="80"></input><br/>
+                    Additional information on the service / ስለ አገልግሎቱ ተጨማሪ መረጃ<br/>
+                    <textarea class="form-control" rows="5" name="additional info" id="comment" ></textarea>
                     Signature / ፊርማ<input class="from-group form-control" type="text" name="signature" id="signature" placeholder="your name" size="80"></input><br/>
                      Date / ቀን <input type="date" id="start" name="today's date" value="2020-10-01" min="2019-01-01" max="2030-12-31" required size="80"></input><br/>
                      <input type="submit" value="Send"></input>

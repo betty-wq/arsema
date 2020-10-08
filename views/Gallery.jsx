@@ -54,7 +54,7 @@ class Gallery extends React.Component {
                 </div>
                 </div>
                 </html>
-                </Layout>
+            </Layout>
         )
     }
 }

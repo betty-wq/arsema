@@ -64,9 +64,9 @@ class Volunteer extends React.Component {
                      IT <input type="checkbox" name="IT"></input><br/>
                      Choir <input type="checkbox" name="Choir"></input><br/>
                      First Aid <input type="checkbox" name="First aid"></input><br/> 
-                     Food Service <input type="checkbox" name="Food service"></input><br/> 
                      Event planner <input type="checkbox" name="Event planner"></input><br/>
                      Kids Bible Study <input type="checkbox" name="Kids Bible Study"></input><br/> 
+                     Members care & refreshments <input type="checkbox" name="Members care & refreshments"></input><br/> 
                      Other Area of profession or service you would like to take part / ሌላ አስተፅዋፅኦ ሊያደርጉ የሚፈልጉበት የአገልግሎት ዘርፍ<br/>
                      <input class="form-group form-control" type="text" name="other" placeholder="other"></input><br/>
                      Signature / ፊርማ<input class="form-group form-control" type="text" name="signature" id="signature" placeholder="your name"></input> Date / ቀን <input type="date" id="start" name="today's date" value="2020-10-01" min="2019-01-01" max="2030-12-31" required ></input><br/>
