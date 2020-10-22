@@ -43,12 +43,16 @@ class Gallery extends React.Component {
                 </div>
                 <div class="gallery_main">
                 <div class="gallery_card">
+                    
                     <a href="/logs/Photo">
+                    <p>Photo</p>
                     <img src="https://i.imgur.com/VmgEFnt.jpg"></img>
                     </a>
                 </div>
                 <div class="gallery_card">
+                    
                     <a href="/logs/Videos">
+                    <p>Video</p>
                     <img src="https://i.imgur.com/08XRpJl.png"></img>
                     </a>
                 </div>
